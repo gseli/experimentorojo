@@ -1,40 +1,6 @@
 # Hugo
-public/
-resources/
-.hugo_build.lock
 
-# Archivos grandes
-*.mp4
-*.mov
-*.avi
-*.psd
-*.ai
-*.pdf
+.hugo_build.lock
 
 # Sistema
 .DS_Store
-*.swp
-# Hugo generated
-public/
-resources/
-
-# Large assets - optimize antes de subir
-*.jpg
-*.png
-*.jpeg
-
-# Keep only optimized versions in static/
-!static/images/*.jpg
-!static/images/*.png
-# Hugo generated
-public/
-resources/
-
-# Large assets - optimize antes de subir
-*.jpg
-*.png
-*.jpeg
-
-# Keep only optimized versions in static/
-!static/images/*.jpg
-!static/images/*.png

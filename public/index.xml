@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Experimento Rojo</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Experimento Rojo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Elizabeth</copyright>
+    <lastBuildDate>Sat, 27 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hola mundo, estoy aquí.</title>
+      <link>http://localhost:1313/posts/1758970593302-hola-mundo-estoy-aqu%C3%AD./</link>
+      <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/1758970593302-hola-mundo-estoy-aqu%C3%AD./</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1758970593302-hola-mundo-estoy-aqu%C3%AD./featured.png" />
+    </item>
+    
+    <item>
+      <title>Acerca del blog</title>
+      <link>http://localhost:1313/acerca_del_blog/</link>
+      <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/acerca_del_blog/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
