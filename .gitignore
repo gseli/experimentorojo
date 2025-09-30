@@ -14,3 +14,27 @@ resources/
 # Sistema
 .DS_Store
 *.swp
+# Hugo generated
+public/
+resources/
+
+# Large assets - optimize antes de subir
+*.jpg
+*.png
+*.jpeg
+
+# Keep only optimized versions in static/
+!static/images/*.jpg
+!static/images/*.png
+# Hugo generated
+public/
+resources/
+
+# Large assets - optimize antes de subir
+*.jpg
+*.png
+*.jpeg
+
+# Keep only optimized versions in static/
+!static/images/*.jpg
+!static/images/*.png
