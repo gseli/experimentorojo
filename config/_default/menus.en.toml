@@ -1,0 +1,17 @@
+[[main]]
+none = "none"
+
+[[main]]
+name = "posts"
+pageRef = "posts"
+identifier = "JnSPYMGPue"
+weight = 1
+
+[[main]]
+name = "acerca del blog"
+pageRef = "acerca_del_blog"
+identifier = "gOupVlP6br"
+weight = 9_999
+
+[[footer]]
+none = "none"

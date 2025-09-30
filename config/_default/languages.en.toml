@@ -1,0 +1,25 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Experimento Rojo"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "2 January 2006"
+secondaryLogo = "."
+description = "111Hago experimentos"
+
+[[params.author.links]]
+github = "https://github.com/gseli"
+
+[[params.author.links]]
+sun = ""
+
+["params.author"]
+name = "Elizabeth"
+headline = "Experimento y hago cosas."
+bio = "Mujer. AACC. AUDHD. CCC. VV."
+image = "yo.jpeg"
