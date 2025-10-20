@@ -3,34 +3,15 @@
 {{ $useDefault := false }}
 {{ $featured := "" }}
 {{ $featuredURL := "" }}
-{{ with .Params.featureimage }}
-  {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
-    {{ if site.Params.hotlinkFeatureImage }}
-      {{ $featuredURL = . }}
-    {{ else }}
-      {{ $featured = resources.GetRemote . }}
-    {{ end }}
-  {{ else }}
-    {{ $featured = resources.Get . }}
-  {{ end }}
-{{ end }}
 
-{{ if not (or $featured $featuredURL) }}
-  {{ $images := .Resources.ByType "image" }}
-  {{ range slice "*background*" "*feature*" "*cover*" "*thumbnail*" }}
-    {{ if not $featured }}{{ $featured = $images.GetMatch . }}{{ end }}
-  {{ end }}
-{{ end }}
-
-{{ if not (or $featured $featuredURL) }}
-  {{ $default := site.Store.Get "defaultBackgroundImage" }}
-  {{ if $default.url }}
-    {{ $featuredURL = $default.url }}
-    {{ $useDefault = true }}
-  {{ else if $default.obj }}
-    {{ $featured = $default.obj }}
-    {{ $useDefault = true }}
-  {{ end }}
+{{/* Always use default background image (sol.jpg) instead of featured images */}}
+{{ $default := site.Store.Get "defaultBackgroundImage" }}
+{{ if $default.url }}
+  {{ $featuredURL = $default.url }}
+  {{ $useDefault = true }}
+{{ else if $default.obj }}
+  {{ $featured = $default.obj }}
+  {{ $useDefault = true }}
 {{ end }}
 
 {{/* generate image URL if not hotlink */}}
