@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Experimento Rojo</title>
-    <link>http://localhost:46397/tags/</link>
+    <link>https://example.org/tags/</link>
     <description>Recent content in Tags on Experimento Rojo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Elizabeth</copyright>
-    <lastBuildDate>Sat, 18 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:46397/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Example</title>
-      <link>http://localhost:46397/tags/example/</link>
-      <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:46397/tags/example/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Tag</title>
-      <link>http://localhost:46397/tags/tag/</link>
-      <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:46397/tags/tag/</guid>
-      <description></description>
-      
-    </item>
+    <lastBuildDate>Sat, 27 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Exp1</title>
-      <link>http://localhost:46397/tags/exp1/</link>
+      <link>https://example.org/tags/exp1/</link>
       <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:46397/tags/exp1/</guid>
+      <guid>https://example.org/tags/exp1/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Personal</title>
-      <link>http://localhost:46397/tags/personal/</link>
+      <link>https://example.org/tags/personal/</link>
       <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:46397/tags/personal/</guid>
+      <guid>https://example.org/tags/personal/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Example</title>
+      <link>https://example.org/tags/example/</link>
+      <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/tags/example/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Tag</title>
+      <link>https://example.org/tags/tag/</link>
+      <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/tags/tag/</guid>
       <description></description>
       
     </item>

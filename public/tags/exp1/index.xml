@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Exp1 on Experimento Rojo</title>
-    <link>http://localhost:46397/tags/exp1/</link>
+    <link>https://example.org/tags/exp1/</link>
     <description>Recent content in Exp1 on Experimento Rojo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Elizabeth</copyright>
-    <lastBuildDate>Sat, 27 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:46397/tags/exp1/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/tags/exp1/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Hola mundo, estoy aquí.</title>
-      <link>http://localhost:46397/posts/1760977826428-hola_mundo/</link>
+      <link>https://example.org/posts/1760977826428-hola_mundo/</link>
       <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:46397/posts/1760977826428-hola_mundo/</guid>
+      <guid>https://example.org/posts/1760977826428-hola_mundo/</guid>
       <description></description>
       
     </item>
